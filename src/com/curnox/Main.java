@@ -144,6 +144,20 @@ public class Main {
         } else {
             System.out.println("Finance");
         }
+        // Ternary Operator
+        String message = (a == 6) ? "School Kid" : "Kid"; // if else
+        System.out.println(message);
+        // Switch statements
+        String msg_1 = "Cat";
+        switch (msg_1) {
+            case "Cat":
+                System.out.println("this is a cat");
+                break;
+            case "Unicorn":
+                System.out.println("No one has seen an unicorn");
+            default:
+                break;
+        }
     }
 
     static class Person {
