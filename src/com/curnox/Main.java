@@ -90,6 +90,19 @@ public class Main {
         int bb = 2, cc = 2;
         cc = 3;
         System.out.println(aa+bb+cc); // 1 + 2 + 3 = 6
+        System.out.println(aa/cc);
+        System.out.println(3%(aa+2));
+        System.out.println(Math.abs(-100)/bb);
+        System.out.println(
+                Math.max(
+                        3.5,123.0
+                ) // only two digits allowed
+        );
+        System.out.println(
+                Math.min(
+                        3.5,123.0
+                ) // only two digits allowed
+        );
     }
 
     static class Person {
