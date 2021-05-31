@@ -119,8 +119,14 @@ public class Main {
         System.out.printf("a <= b %s\nb >= 12 %s",10<=11,11>=12);
         boolean isTeen = true;
         boolean isEvil = false;
+        boolean isStrong = false;
+        boolean isLazy = true;
         System.out.println(isTeen && isEvil);
         // both true then true
+        System.out.println(isStrong || isLazy);
+        System.out.println((isStrong || isTeen) && isLazy);
+        // either one is true then true
+        System.out.println((isLazy&&!isStrong)&&isEvil);
     }
 
     static class Person {
