@@ -67,6 +67,13 @@ public class Main {
                 String.format(
                         "user no.2 name and location are %s and %s"
                 ,user_2.name,user_2.location));
+
+        String sample_string = new String("This is your new home");
+        System.out.println(String.format("index 9 of the string %s",sample_string));
+        System.out.println(sample_string.charAt(9));
+        System.out.println(sample_string.getBytes()); // less
+        System.out.println(sample_string.chars()); // less
+        System.out.println(sample_string.compareTo(user_1.name));
     }
 
     static class Person {
