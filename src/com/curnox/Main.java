@@ -1,6 +1,7 @@
 package com.curnox;
 
 import java.util.Date;
+import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,5 +24,7 @@ public class Main {
         Date date_1 = new Date();
         System.out.println("Stop me");
         System.out.println(date_1);
+        String name_1 = new String("this Sucks");
+        System.out.println(name_1.toLowerCase(Locale.ROOT));
     }
 }
