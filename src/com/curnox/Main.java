@@ -1,6 +1,7 @@
 package com.curnox;
 
 import java.time.LocalDate;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.Locale;
 import java.util.Scanner;
@@ -158,6 +159,13 @@ public class Main {
             default:
                 break;
         }
+        // Array
+        int [] array = new int[4];
+        boolean [] arrbool = new boolean[2];
+        System.out.println(array);
+        System.out.println(Arrays.toString(array));
+        System.out.println(Arrays.toString(arrbool));
+
     }
 
     static class Person {
