@@ -160,12 +160,18 @@ public class Main {
                 break;
         }
         // Array
-        int [] array = new int[4];
+        int [] array = new int[4]; // size = 4
         boolean [] arrbool = new boolean[2];
         System.out.println(array);
         System.out.println(Arrays.toString(array));
         System.out.println(Arrays.toString(arrbool));
-
+        for (int i = 0;  i< array.length;i++)
+        {
+            array[i] = i+1;
+        }
+        System.out.println(Arrays.toString(array));
+        float [] hike = {1,2,3,4}; // no size specified
+        System.out.println(hike.length);
     }
 
     static class Person {
