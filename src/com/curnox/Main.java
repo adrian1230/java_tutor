@@ -3,6 +3,7 @@ package com.curnox;
 import java.time.LocalDate;
 import java.util.Date;
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -134,6 +135,14 @@ public class Main {
         System.out.println(type);
         if (((Object)jason).getClass().getSimpleName() == type) {
             System.out.println("This is fantastic");
+        }
+        int a = 5, b = 6, c = 9, d = 19;
+        if (a < 6 && a > c) {
+            System.out.println("a is smaller than 6 and > 9");
+        } else if (a >= 6 || a < d) {
+            System.out.println("Ya man");
+        } else {
+            System.out.println("Finance");
         }
     }
 
