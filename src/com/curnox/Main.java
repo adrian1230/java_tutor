@@ -172,6 +172,9 @@ public class Main {
         System.out.println(Arrays.toString(array));
         float [] hike = {1,2,3,4}; // no size specified
         System.out.println(hike.length);
+        for (int i = hike.length-1;i>=0;i--){
+            System.out.println((int )hike[i]);
+        }
     }
 
     static class Person {
