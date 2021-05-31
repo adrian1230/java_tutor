@@ -63,13 +63,12 @@ public class Main {
                 String.format("after modified:\n%s %s",user_1.name,user_2.name)
         );
 
-        System.out.println(
-                String.format(
-                        "user no.2 name and location are %s and %s"
-                ,user_2.name,user_2.location));
+        System.out.printf(
+                "user no.2 name and location are %s and %s%n"
+        ,user_2.name,user_2.location);
 
         String sample_string = new String("This is your new home");
-        System.out.println(String.format("index 9 of the string %s",sample_string));
+        System.out.printf("index 9 of the string %s%n",sample_string);
         System.out.println(sample_string.charAt(9));
         System.out.println(sample_string.getBytes()); // less
         System.out.println(sample_string.chars()); // less
@@ -113,6 +112,15 @@ public class Main {
         System.out.println(
                 Math.sqrt(24)
         );
+        System.out.printf(
+                "a = 10; b = 11; c = 10\na < b %s\n"+
+                        "a > b %s\na == c %s",10<11,10>11,10==10
+                );
+        System.out.printf("a <= b %s\nb >= 12 %s",10<=11,11>=12);
+        boolean isTeen = true;
+        boolean isEvil = false;
+        System.out.println(isTeen && isEvil);
+        // both true then true
     }
 
     static class Person {
