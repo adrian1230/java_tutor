@@ -5,6 +5,10 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
         byte byte_1 = -1;
+        short short_1 = -32768;
+        long long_1 = 101011;
+        long long_2 = 8912321313L;
+        float float_1 = 12.2321F;
         // byte: -128 to 127
         // short: -32768 to 32767
         // int: -2147483648 to 2147483647
