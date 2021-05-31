@@ -1,5 +1,6 @@
 package com.curnox;
 
+import java.time.LocalDate;
 import java.util.Date;
 import java.util.Locale;
 
@@ -26,5 +27,18 @@ public class Main {
         System.out.println(date_1);
         String name_1 = new String("this Sucks");
         System.out.println(name_1.toLowerCase(Locale.ROOT));
+        LocalDate now = LocalDate.now();
+        System.out.println(str_1+" "+now);
+        System.out.println(now.getMonth().toString().toLowerCase());
+        double double_a = 101.0;
+        double double_b = 10.1;
+        double_a = double_b;
+        double_b -= 8;
+        System.out.println(
+                "double a was 101.0 and double b was 10.1\n" +
+                        "after double a referenced double b:\n" +
+                        "double a = " + double_a + " double b = " +
+                        double_b
+        );
     }
 }
