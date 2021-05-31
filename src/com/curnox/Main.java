@@ -103,6 +103,16 @@ public class Main {
                         3.5,123.0
                 ) // only two digits allowed
         );
+        System.out.println(
+                (int) Math.pow(5,10) // set (int) turn from
+                // float into integer
+        );
+        System.out.println(
+                (int) Math.sqrt(24)
+        ); // this is like the floor function in Math
+        System.out.println(
+                Math.sqrt(24)
+        );
     }
 
     static class Person {
