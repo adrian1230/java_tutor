@@ -42,5 +42,36 @@ public class Main {
                         "double a = " + double_a + " double b = " +
                         double_b
         );
+
+        Person user_1 = new Person(
+                "John Denver",
+                18,
+                177.5F,
+                58.0F,
+                "Hong Kong");
+
+        Person user_2 = user_1;
+    }
+
+    static class Person {
+        String name;
+        int age;
+        float height;
+        float weight;
+        String location;
+
+        Person(
+                String name,
+                int age,
+                float height,
+                float weight,
+                String location
+        ) {
+            this.location = location;
+            this.name = name;
+            this.age = age;
+            this.height = height;
+            this.weight = weight;
+        }
     }
 }
