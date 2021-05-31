@@ -127,6 +127,14 @@ public class Main {
         System.out.println((isStrong || isTeen) && isLazy);
         // either one is true then true
         System.out.println((isLazy&&!isStrong)&&isEvil);
+        // If statements
+        long jason = 21892123223232L;
+        System.out.println(jason);
+        String type = ((Object)jason).getClass().getSimpleName();
+        System.out.println(type);
+        if (((Object)jason).getClass().getSimpleName() == type) {
+            System.out.println("This is fantastic");
+        }
     }
 
     static class Person {
