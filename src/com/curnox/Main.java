@@ -51,6 +51,22 @@ public class Main {
                 "Hong Kong");
 
         Person user_2 = user_1;
+
+        System.out.println(
+                String.format("before modified:\n%s %s",user_1.name,user_2.name)
+        );
+
+        user_2.name = "Curry Netty";
+        user_2.location = "Kiv";
+
+        System.out.println(
+                String.format("after modified:\n%s %s",user_1.name,user_2.name)
+        );
+
+        System.out.println(
+                String.format(
+                        "user no.2 name and location are %s and %s"
+                ,user_2.name,user_2.location));
     }
 
     static class Person {
