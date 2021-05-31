@@ -73,7 +73,23 @@ public class Main {
         System.out.println(sample_string.charAt(9));
         System.out.println(sample_string.getBytes()); // less
         System.out.println(sample_string.chars()); // less
-        System.out.println(sample_string.compareTo(user_1.name));
+        System.out.println(
+                sample_string.compareTo(user_1.name));
+        String joke = new String("Glücklichkeit");
+        String joke_1 = new String("lich");
+        System.out.println("check if the string contain another string");
+        System.out.println(joke.contains(joke_1));
+        System.out.println("check if the string == another string");
+        System.out.println(joke.equals(joke_1));
+        java.sql.Date date__1 = new java.sql.Date(1);
+        System.out.println(date__1);
+        // reserved keywords
+        // package, void, main, static, public, ......
+        System.out.println("new section");
+        int aa = 1;
+        int bb = 2, cc = 2;
+        cc = 3;
+        System.out.println(aa+bb+cc); // 1 + 2 + 3 = 6
     }
 
     static class Person {
