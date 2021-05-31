@@ -32,8 +32,10 @@ public class Main {
         System.out.println(now.getMonth().toString().toLowerCase());
         double double_a = 101.0;
         double double_b = 10.1;
-        double_a = double_b;
+        double_a = double_b; // only get the current state of
+        // value of the variable in java
         double_b -= 8;
+        System.out.println("##############################");
         System.out.println(
                 "double a was 101.0 and double b was 10.1\n" +
                         "after double a referenced double b:\n" +
