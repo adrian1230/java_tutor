@@ -175,6 +175,11 @@ public class Main {
         for (int i = hike.length-1;i>=0;i--){
             System.out.println((int )hike[i]);
         }
+        // Enhanced loop
+        System.out.println("Enhanced version:");
+        for (float num : hike) {
+            System.out.println(num);
+        }
     }
 
     static class Person {
