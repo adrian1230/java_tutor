@@ -180,6 +180,19 @@ public class Main {
         for (float num : hike) {
             System.out.println(num);
         }
+        Arrays.stream(array).forEach(System.out::println);
+        // Break and Continue
+        System.out.println("Break and Continue");
+        int [] mountains = {1,2,4,4,5,6,234,3,3};
+        for (int hill: mountains) {
+            if (hill == 234){
+                break;
+            } else if (hill <= 2) {
+                continue;
+            } else {
+                System.out.println(hill);
+            }
+        }
     }
 
     static class Person {
