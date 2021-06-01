@@ -218,6 +218,60 @@ public class Main {
         System.out.println("your name: \n");
         String inputname = scanner.nextLine();
         System.out.println(inputname);
+        System.out.println("your favorite card in poker\nfrom 1 - 15");
+        int beloved_poker_card = scanner.nextInt();
+        if (beloved_poker_card < 1 || beloved_poker_card > 15) {
+            throw new Error("out of range");
+        }
+        System.out.println(beloved_poker_card);
+        switch(beloved_poker_card) {
+            case 1:
+                System.out.println("Ace");
+                break;
+            case 2:
+                System.out.printf("%s", beloved_poker_card);
+                break;
+            case 3:
+                System.out.printf("%s",String.valueOf(beloved_poker_card));
+                break;
+            case 4:
+                System.out.printf("%s",String.valueOf(beloved_poker_card));
+                break;
+            case 5:
+                System.out.printf("%s",String.valueOf(beloved_poker_card));
+                break;
+            case 6:
+                System.out.printf("%s",String.valueOf(beloved_poker_card));
+                break;
+            case 7:
+                System.out.printf("%s",String.valueOf(beloved_poker_card));
+                break;
+            case 8:
+                System.out.printf("%s",String.valueOf(beloved_poker_card));
+                break;
+            case 9:
+                System.out.printf("%s",String.valueOf(beloved_poker_card));
+                break;
+            case 10:
+                System.out.printf("%s",String.valueOf(beloved_poker_card));
+                break;
+            case 11:
+                System.out.println("Prince");
+                break;
+            case 12:
+                System.out.println("Queen");
+                break;
+            case 13:
+                System.out.println("King");
+                break;
+            case 14:
+                System.out.println("Joker - small");
+                break;
+            case 15:
+                System.out.println("Joker -  big");
+                break;
+        }
+
     }
 
     static class Person {
