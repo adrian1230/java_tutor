@@ -1,10 +1,7 @@
 package com.curnox;
 
 import java.time.LocalDate;
-import java.util.Arrays;
-import java.util.Date;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -193,6 +190,34 @@ public class Main {
                 System.out.println(hill);
             }
         }
+        // while loop
+        while (true) {
+            System.out.println("forever loop");
+            break;
+        }
+
+        int counter = 0;
+        while (counter <= 25.7) {
+            Random rand = new Random(); // random number
+            int range_1 = rand.nextInt(16); // 0 - 15
+            System.out.println(counter);
+            counter += range_1;
+        }
+        // do while loop
+        System.out.println("do while");
+        do {
+            System.out.println(counter);
+            Random rand = new Random();
+            int range_2 = rand.nextInt(14);
+            System.out.println(counter);
+            counter -= range_2;
+        } while (counter >= 0);
+        System.out.printf("\n%2d",counter);
+        // Scanner
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("your name: \n");
+        String inputname = scanner.nextLine();
+        System.out.println(inputname);
     }
 
     static class Person {
