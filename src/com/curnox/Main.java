@@ -232,19 +232,17 @@ public class Main {
                 System.out.printf("%s", beloved_poker_card);
                 break;
             case 3:
+            case 7:
                 System.out.printf("%s",String.valueOf(beloved_poker_card));
                 break;
             case 4:
-                System.out.printf("%s",String.valueOf(beloved_poker_card));
+                System.out.printf("%s", beloved_poker_card);
                 break;
             case 5:
-                System.out.printf("%s",String.valueOf(beloved_poker_card));
+                System.out.printf("%s", beloved_poker_card);
                 break;
             case 6:
-                System.out.printf("%s",String.valueOf(beloved_poker_card));
-                break;
-            case 7:
-                System.out.printf("%s",String.valueOf(beloved_poker_card));
+                System.out.printf("%s", beloved_poker_card);
                 break;
             case 8:
                 System.out.printf("%s",String.valueOf(beloved_poker_card));
@@ -271,7 +269,14 @@ public class Main {
                 System.out.println("Joker -  big");
                 break;
         }
+        String [] alpha = {"a","b"};
+        int arr_len = length_arr(alpha);
+        System.out.println(arr_len);
+    }
 
+    public static int length_arr(String [] array_) {
+        System.out.println(array_.length);
+        return -1;
     }
 
     static class Person {
